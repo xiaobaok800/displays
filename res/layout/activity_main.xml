@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#9f673f">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="#cfd9d4"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:orientation="vertical"
+            android:background="#c8c5c4">
+
+            <EditText
+                android:id="@+id/et_shop_name"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="38dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_shape"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="店家编号"
+                android:paddingLeft="5dp"
+                android:drawableRight="@drawable/back_arrow_2"
+                android:textSize="12sp"
+                android:layout_marginBottom="10dp"
+                android:ems="10" >
+				
+            </EditText>
+            <EditText
+                android:id="@+id/et_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_shape"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="员工用户名"
+                android:paddingLeft="5dp"
+                android:drawableRight="@drawable/back_arrow_2"
+                android:textSize="12sp"
+                android:layout_marginBottom="10dp"
+                android:ems="10" >
+				
+            </EditText>
+            <EditText
+                android:id="@+id/et_pass_word"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_shape"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="员工密码"
+                android:paddingLeft="5dp"
+                android:inputType="textPassword"
+                android:drawableRight="@drawable/back_arrow_2"
+                android:textSize="12sp"
+                android:ems="10" >
+				
+            </EditText>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="38dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="10sp"
+                    android:text="记住密码" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_shape"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:text="登录" />
+
+    </LinearLayout>
+
+</RelativeLayout>

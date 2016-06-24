@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">双屏异显</string>
+    <string name="action_settings">设置</string>
+    <string name="open_vice_dispaly">开启副品</string>
+    <string name="vice_dispaly">副品</string>
+</resources>
